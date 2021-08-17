@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap');
+
+h1, h2, h3, h4, p, nav {
+	font-family: "Space Mono", monospace;
+}
+footer {
+	padding: 2px !important;
+}
+.container {
+	max-width: 1440px;
+	padding: 25px auto !important;
+}
+.msg {
+	width: 55%;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.nav {
+	margin: 8px 20px;
+	font-size: 24px;
+}
+.title {
+	font-size: 64px;
+}
+.button {
+	font-family: "Space Mono", monospace;
+	font-size: 14px;
+	width: 40%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 20px 25px !important;	
+}
+.footer {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 4px auto;
+	padding: 2px;
+}
+@media (max-width: 800px){
+	.container {
+		max-width: 700px;
+	}
+}
+@media (max-width: 414px){
+	.title {
+		font-size: 48px;
+	}
+	.msg {
+		width: 100%;
+		font-size: 18px;
+	}
+	.button {
+		width: 75%;
+	}
+}
